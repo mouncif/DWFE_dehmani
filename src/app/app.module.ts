@@ -47,10 +47,7 @@ const routes: Routes = [
     ReactiveFormsModule,
     FormsModule,
     MatSidenavModule,
-    RouterModule.forRoot(
-      routes,
-      { enableTracing: true } // <-- debugging purposes only
-    )
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
